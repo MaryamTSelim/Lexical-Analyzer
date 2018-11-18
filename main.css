@@ -1,0 +1,59 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:black
+}
+header{
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    margin: 0%;
+    padding: 20px;
+    
+}
+h1{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 25px;
+    margin: 0%;
+    float: left;
+    width: 50%;
+    background-color: black;
+    color: whitesmoke;
+            
+}
+div{
+    clear: both;
+    margin: 0px auto;
+}
+textarea{
+    box-sizing: border-box;
+    width: 50%;
+    height: 500px;
+    resize: none;
+    font-size: 18px;
+    scale: none;
+    
+}
+#inputTxt{
+    float: left;
+}
+#outputTxt{
+    float: left;
+}
+textarea:hover{
+    box-shadow: none;
+    border: none;
+    outline: none;
+    z-index: none;
+    
+    
+}
+button{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    font-weight: 600;
+    background-color: #fff;
+    clear: both;
+}
